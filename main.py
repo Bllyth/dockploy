@@ -135,4 +135,4 @@ async def read_admin_data(current_user: User = Depends(get_current_active_admin_
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=5000)
